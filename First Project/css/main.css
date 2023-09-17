@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu ul li{
+    font-size: 20px;
+    margin: 0 20px 0 0;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.productbox {
+    width: 25%;
+    height: 200px;
+    background: white;
+}
+
+
+.productlist {
+    display: flex;
+    gap: 20px;
+    padding: 0 0 0 75px;
+
+}
+
+.productbox img{
+    width: 80%;
+}
+
+.trendingtext {
+    text-align: center;
+}
+
+.seemorebutton{
+    background: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 380px 10px 50px 0;
+}
+
+.buttoncontainer {
+   display: flex;
+   justify-content: center;
+}
+
+.footer {
+    font-size: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px 0 20px 0;
+}
