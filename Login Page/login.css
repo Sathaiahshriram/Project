@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('Index\ Of\ Public\ Resources\ Image\ Various\ Login\ Background.jpg') no-repeat;
+    background-size: cover;
+}
+
+.title{
+    width: 400px;
+    background: transparent;
+    color: black;
+    border-radius: 10px ;
+    padding: 30px 40px;
+}
+
+.title h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.title .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 20px;
+    color: black;
+    padding: 20px 45px 20px 25px;
+}
+
+.input-box input::placeholder{
+    color: #f0ffff;
+}
+
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    transform: translateY(-50%);
+    font-size: 40px;
+}
+
+.title .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: -15px 0 15px 0;
+    color: white;
+}
+
+.remember-forget label input{
+    accent-color: black;
+    margin-right: 5px;
+}
+
+.remember-forget a{
+    color: white;
+    text-decoration: none;
+}
+
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+
+.title .btn{
+    width: 100%;
+    height: 50px;
+    background: azure;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0 0 10px rgba(65, 105, 225, 0);
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    font-size: 600;
+}
+
+.title .new-register{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.new-register p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.new-register a:hover{
+    text-decoration: underline;
+}
+
+.btn {
+    transition-duration: 0.4s;
+  }
+  
+.btn:hover {
+    background-color: gray; 
+    color: white;
+  }
+
+
+
