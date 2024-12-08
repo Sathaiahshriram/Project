@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+
+
+#Navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem  5rem;
+    box-shadow: 5px 5px 5px rgb(44, 38, 38);
+    background: rgb(0, 13, 80);
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+}
+
+#navbarcontent a{
+    color: white;
+    margin: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarcontent a:hover{
+    border-bottom: 2px solid rgb(0, 128, 255);
+}
+
+#navbarcontent button{
+    background: green;
+    border: 2px solid transparent;
+    border-radius: none;
+    color: white;
+    transition: 0.5s;
+}
+
+#navbarcontent button:hover{
+    background: white;
+    border: 2px solid transparent;
+    color: black;
+}
+
+
+#content{
+    padding: 100px;
+}
+
+
+
+
+
+#banner h1{
+    font-weight: bolder;
+    font-family: 'poppins';
+    font-size: 50px;
+}
+
+#banner p{
+    margin-top: 10px;
+}
+
+#banner button{
+    background: green;
+    border: 2px solid white ;
+    margin-top: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+#banner button:hover{
+    border: 2px solid white;
+    background: white;
+    color: black;
+}
+
+#banner .row{
+    background-color: rgb(202, 239, 239);
+    padding-bottom: 50px;
+}
+
+.row img{
+    padding-top: 45px;
+}
+
+.SEO-Toolbox h1{
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    font-weight: 800;
+    font-family: 'poppins';
+    font-size: 50px;
+}
+
+#a{
+    background-color: rgb(191, 233, 191);
+}
+
+#a img{
+    padding-top: 125px;
+}
+
+#b{
+    background-color: bisque;
+}
+
+#b img{
+    padding-top: 125px;
+}
+
+#c{
+    background-color: aqua;
+    width: 37%;
+}
+
+#c img {
+    padding-top: 130px;
+}
+
+
+.about img{
+    padding-top: 100px;
+    width: 100%;
+}
+
+.about{
+    border: none;
+    box-shadow: 20px 15px 20px black,
+                inset 4px 4px 10px lightblue;
+    transition: 0.5s;
+}
+
+.about:hover{
+    box-shadow: inset 10px 5px 10px black,
+                inset -4px -4px 10px lightblue;
+
+}   
+
+.about h2{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'poppins';
+    padding-top: 50px;
+}
+
+
+.row1{
+    width: 90%;
+    display: flex;  
+    gap: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+.service-content h1{
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 800;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.row2{
+    display: flex;
+}
+
+#content-service h2{
+    font-family: 'poppins';
+    font-weight: 800;
+    padding-top: 30px;
+}
+
+.rating{
+    padding-top: 50px;
+}
+
+#content-service .mobile{
+    color: grey;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.rating .form-label{
+    color: grey;
+    font-weight: 600;
+    opacity: 0.5;
+}
+
+.row3{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.paragraph {
+    padding-top: 20px;
+}
+
+.row3 button{
+    padding-top: 10px;
+    background: green;
+    border: 2px solid transparent;
+    border-radius: none;
+    color: white;
+    transition: 0.5s;
+}
+
+.row3 button:hover{
+    background: white;
+    border: 2px solid transparent;
+    color: black;
+}
+
+.heading h1{
+    font-family: 'poppins';
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+
+#pages{
+    background-color: gainsboro;
+    padding-bottom: 100px;
+}
+#pagelist {
+    width: 40%;
+    display: inline-block;
+    margin-inline: 30px;
+    margin-left: 70px;
+    box-shadow: 20px 15px 15px green,
+                inset 4px 4px 20px black ;
+}
+
+#pagelist:hover{
+    box-shadow: inset 20px 15px 15px black,
+                inset -4px -4px 20px green ;
+}
+
+
+#pagelist img{
+    width: 80px;
+    padding-top: 20px;
+}
+
+#pagecontent{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 30px;
+}
+
+#pagecontent span{
+    color: grey;
+    opacity: 0.8;
+}
+
+#pagecontent p{
+    font-family: 'poppins';
+    font-weight: 600;  
+    font-size: medium; 
+}
+
+#contactus{
+    padding-left: 86px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-color: khaki;
+}
+
+.footercontent img{
+    margin: 5px 5px 5px 5px;
+    width: 23px;
+}
+
+.footercontent h1{
+    font-family: 'poppins';
+    font-weight: bolder;
+}
+
+.footercontent p{
+    color: gray;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+.footercontent button{
+    font-family: 'poppins';
+    font-weight: bold;
+    background: green;
+    color: white;
+    border: 2px solid transparent;
+    transition: 0.5;
+}
+
+.footercontent button:hover{
+    border: 2px solid transparent;
+}
+
+.footerlist p{
+    font-family: 'poppins';
+    font-weight: bolder;
+    padding-left: 11px;
+}
+
+.contactdetails ul{
+    list-style: none;
+}
+
+.contactdetails p{
+    font-family: 'poppins';
+    font-weight: bolder;
+    padding-left: 27px;
+}
+
+.footerlist ul{
+    color: gray;
+    font-family: 'poppins';
+    font-weight: 400;
+}
+
+.contactdetails ul{
+    color: gray;
+    font-family: 'poppins';
+    font-weight: 400;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 150%;
+        margin: 0 auto 0 auto;
+    }
+    .row2{
+        display: block;
+        padding-left: 0;
+    }
+    .row3{    
+        display: block;
+        padding-left: 0;
+    }
+    #contactus {
+        padding-left: 0px;
+    }
+    .row1{
+    display: grid;
+    margin: 0px 128px 0 107px;
+    }
+    #a{
+        width: 50%;
+    }
+    #b{
+        width: 50%;
+    }
+    #c{
+        width: 50%;
+    }
+    #pagelist{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .row2{
+        margin-left: 0;
+    }
+} 
+
+@media screen and (max-width: 500px) {
+    #content-service img{
+        width: 90%;
+    }
+    .row2 img{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    #a{
+        width: 67%;
+    }
+    #b{
+        width: 67%;
+    }
+    #c{
+        width: 67%;
+    }
+    .rating {
+        width: 82%;
+    }
+    #pagelist{
+        margin-left: 20px;
+        width: 87%;
+    }
+}
+
+
+
+
