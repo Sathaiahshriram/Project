@@ -1,0 +1,394 @@
+div#navbarNav {
+    justify-content: flex-end;
+}
+
+li.nav.item{
+    padding: 0 0 0 20px;
+    font-weight: 500;
+
+}
+
+
+.freeshipping {
+    background: purple;
+    color: white;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.freeshipping p {
+    margin: 0;
+}
+
+.sellerheading{
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.productcard{
+        text-align: center;
+}
+
+.productcard img{
+    width: 100%;
+}
+
+.bannercontent {
+    position: absolute;
+    top: 205px;
+    left: 24%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}    
+
+.bannercontent button{
+    background: white;
+    margin: 25px 0 0 0;
+    font-size: 22px;
+}    
+
+.bannercontent h1{
+    font-size: 500%;
+}
+
+.bannercontent p {
+    font-size: 22px;
+    margin: 15px 0 0 0;
+}
+
+.bannersection2 {
+    padding: 66px 0 0 0;
+}
+
+
+.productlist img{
+    width: 100%;
+    padding: 106px 0px 0 0px;
+    text-align: center;
+}
+
+
+.textcontent {
+    padding: 37px 0 0 0px;
+}
+
+.textcontent2 {
+    padding: 37px 0 0 0;
+}
+
+.button1 {
+    background: purple;
+    color: white;
+    margin: 10px 0 0 0;
+    padding: 6px 16px 5px 19px;
+    transition: 0.3s;
+    border: none;
+}
+
+.button1:hover{
+    background-color: transparent;
+    color: black;
+    font-weight: 800;
+}
+
+ul.list {
+    list-style: none;
+}
+
+.footersection{
+    background: rgb(219 213 213);
+}
+
+.containera {
+    margin: 100px 0 0px 0px;
+    padding: 0 0 95px 0;
+}
+
+
+.footercontent {
+    padding: 47px 0 0 45px;
+}
+
+
+.listcontent {
+    padding: 47px 0 0 401px;
+    text-decoration: underline;
+}
+
+span.product1 {
+    text-decoration-line: line-through;
+}
+
+span.product2 {
+    text-decoration-line: line-through;
+}
+
+.bannerlist {
+    position: absolute;
+    top: 222px;
+    left: 19%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.bannerlist h1 {
+    font-size: 715%;
+}
+.bannerlist p {
+    font-size: 22px;
+    margin: 15px 0 0 0;
+}
+
+.bannerlist button{
+    background: white;
+    margin: 25px 40px 0 0;
+    font-size: 22px;
+}  
+
+@media screen and (max-width: 768px) {
+    .cont{
+        max-width: 1000px;
+        margin: 0 auto 0 auto;
+    }
+    .bannercontent {
+        position: absolute;
+        top: 85px;
+        left: 25%;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 8px;
+    }
+    .bannercontent p {
+        font-size: 15px;
+        margin: 4px 0 0 0;
+    }
+    .bannercontent button {
+        background: white;
+        margin: 12px 0 0 0;
+        font-size: 15px;
+    }
+    .sellerheading {
+        text-align: center;
+        margin: 26px 0 26px 0;
+    }
+    .productcard img {
+        width: 75%;
+    }
+    #row1 {
+        display: contents;
+    }
+    .productcard {
+        text-align: center;
+        float: left;
+    }
+    .bannerlist {
+        position: absolute;
+        top: 100px;
+        left: 29%;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+    .bannerlist h1 {
+        font-size: 250%;
+    }
+    .bannerlist p {
+        font-size: 20px;
+        margin: 6px 0 0 0;
+    }
+    .bannerlist button {
+        background: white;
+        margin: 11px 30px 0 0;
+        font-size: 16px;
+    }
+    .productlist img {
+        width: 45%;
+        padding: 37px 0px 0 0px;
+        text-align: center;
+    }
+    .textcontent {
+        padding: 70px 0px 1px 34px;
+    }
+    #row2{
+        display: flex;
+    }
+    .productlist{
+        display: flex;
+    }
+    .textcontent2 {
+        padding: 65px 0 0 35px;
+    }
+    .containera {
+        margin: 45px 0 0px 0px;
+        padding: 0 0 35px 0;
+    }
+    .listcontent {
+        padding: 0px 0 0 460px;
+        text-decoration: underline;
+        margin-top: -70px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .bannercontent {
+        position: absolute;
+        top: 30px;
+        left: 20%;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 6px;
+    }
+    .sellerheading {
+        text-align: center;
+        margin: 12px 0 12px 0;
+        font-size: 22px;
+    }
+    .productcard {
+        text-align: center;
+        float: left;
+        margin-left: 12%;
+        margin-bottom: 25px;
+    }
+    .bannerlist {
+        position: absolute;
+        top: 35px;
+        left: 17%;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 14px;
+    }
+    .productlist img {
+        width: 55%;
+        padding: 60px 0px 0 19px;
+        text-align: center;
+    }
+    .textcontent {
+        padding: 65px 0px 0px 13px;
+    }
+    .textcontent2 {
+        padding: 65px 0 0 12px;
+        font-size: 12px;
+    }
+    .containera {
+        margin: 18px 0 0px -46px;
+        padding: 0 0 20px 0;
+    }
+    .listcontent {
+        padding: 0px 0 0 320px;
+        text-decoration: underline;
+        margin-top: -15%;
+        margin-left: -12%;
+    }
+    ul.list {
+        list-style: none;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .freeshipping {
+        background: purple;
+        color: white;
+        padding: 10px 0 10px 0;
+        text-align: center;
+        font-size: 13px;
+    }
+    .bannercontent {
+        position: absolute;
+        top: 40px;
+        left: 27%;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 7px;
+    }
+    .bannercontent h1 {
+        font-size: 250%;
+    }
+    .bannercontent p {
+        font-size: 8px;
+        margin: 1px 0 0 0;
+    }
+    .bannercontent button {
+        background: white;
+        margin: 9px 0 0 0;
+        font-size: 5px;
+    }
+    .sellerheading {
+        text-align: center;
+        margin: 10px 0 10px 0;
+        font-size: 20px;
+    }
+    .productcard img {
+        width: 72%;
+    }
+    .productcard {
+        text-align: center;
+        float: left;
+        margin-left: 5%;
+    }
+    .bannerlist {
+        position: absolute;
+        top: 55px;
+        left: 25%;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-size: 15px;
+    }
+    .bannerlist h1 {
+        font-size: 125%;
+    }
+    .bannerlist p {
+        font-size: 9px;
+        margin: 0px 0 0 0;
+    }
+    .bannerlist button {
+        background: white;
+        margin: 8px 10px 0 0;
+        font-size: 7px;
+    }
+    #row2 {
+        display: flex;
+        margin-left: -15px;
+    }
+    .productlist img {
+        width: 49%;
+        padding: 37px 0px 0 0px;
+        text-align: center;
+        height: 0%;
+    }
+    .textcontent {
+        padding: 26px 0px 0px 12px;
+    }
+    .button1 {
+        background: purple;
+        color: white;
+        margin: -6px 0 0 0;
+        padding: 6px 16px 5px 19px;
+        transition: 0.3s;
+        border: none;
+    }
+    .textcontent2 {
+        padding: 20px 0 0 11px;
+    }
+    .containera {
+        margin: 33px 0 0px 0px;
+        padding: 0 0 25px 0;
+    }
+    .footercontent {
+        padding: 20px 0 0 0px;
+    }
+    .listcontent {
+        padding: 0px 0 0 215px;
+        text-decoration: underline;
+        margin-top: -70px;
+        font-size: 14px;
+    } 
+}
